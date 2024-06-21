@@ -25,7 +25,7 @@ const Hero = () => {
     "text-sm font-medium p-1 group-hover:text-black text-white transition duration-500";
 
   return (
-    <div ref={container} className="text-black mt-10 mb-[50rem] z-50">
+    <div ref={container} className="text-black mt-10 mb-[50rem] z-50 p-5">
       <h1 className="text-[24vw] font-black !leading-[0.9]">
         Jeremy <br />
         —Gill

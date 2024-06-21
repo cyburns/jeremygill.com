@@ -71,7 +71,7 @@ const SplashScreen = () => {
       variants={slideUp}
       initial="initial"
       exit="exit"
-      className="h-screen w-screen flex items-center justify-center fixed z-[99] bg-black"
+      className="h-screen w-screen flex items-center justify-center fixed z-[99999] bg-black"
     >
       {dimension.width > 0 && (
         <>
@@ -79,10 +79,10 @@ const SplashScreen = () => {
             variants={opacity}
             initial="initial"
             animate="enter"
-            className="flex items-center text-white text-[42px] absolute z-[1]"
+            className="flex items-center text-white text-[14px] absolute z-[1]"
           >
             <span
-              className={`block w-[10px] h-[10px] bg-white rounded-full mr-[10px] ${oswald.className}`}
+              className={`block w-[7px] h-[7px] bg-white rounded-full mr-[10px] ${oswald.className}`}
             ></span>
             {percents[index]}
           </motion.p>

@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import Hero from "@/components/Hero";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     (async () => {
@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="-z-50 overflow-hidden max-w-[100%] bg-white p-5">
+    <main className="-z-50 overflow-hidden max-w-[100%] bg-white">
       <AnimatePresence mode="wait">
         {isLoading && <SplashScreen />}
       </AnimatePresence>
