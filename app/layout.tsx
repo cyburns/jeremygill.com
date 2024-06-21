@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Cyrus | Portfolio",
-  description: "Director of Marketing.",
+  title: "Jeremy Gill | Portfolio",
+  description: "Actor and Director.",
 };
 
 export default function RootLayout({
