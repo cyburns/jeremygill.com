@@ -33,9 +33,9 @@ const Hero = () => {
 
       <motion.div
         style={{ y }}
-        className="flex flex-col lg:flex-row items-center space-y-10 justify-center lg:justify-between mt-24 lg:-mt-[22rem] z-50"
+        className="flex flex-col lg:flex-row space-y-10 justify-center lg:justify-between mt-24 lg:-mt-[18rem] z-50"
       >
-        <div className="md:w-[80%] lg:w-[23%] lg:pt-48 flex flex-col group">
+        <div className="md:w-[80%] lg:w-[23%] lg:pt-64 flex flex-col group">
           <Image
             src={J_G_5}
             alt="Jeremy Gill"
@@ -53,7 +53,7 @@ const Hero = () => {
           />
           <p className={pClass}>ACTOR / DIRECTOR</p>
         </div>
-        <div className="md:w-[80%] lg:w-[23%] lg:pt-80 flex flex-col group">
+        <div className="md:w-[80%] lg:w-[23%] lg:pt-72 flex flex-col group">
           <Image
             src={CatPerson}
             alt="Jeremy Gill"
